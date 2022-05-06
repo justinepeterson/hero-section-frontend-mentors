@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #fafafa;
+  height: 100vh;
+}
+
+.content {
+  min-height: 100%;
+}
+
+.header {
+  display: flex;
+  align-content: center;
+  gap: 62px;
+  padding: 22px 40px;
+  color: hsl(0, 0%, 8%);
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.header .logo img {
+  width: 83.5px;
+  height: 26.58px;
+}
+
+.nav-primary {
+  width: 335px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-secondary {
+  width: 182px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: auto;
+}
+
+.nav-secondary button {
+  border: none;
+  background-color: #fafafa;
+}
+
+.nav-secondary .register {
+  border: 1.5px solid #686868;
+  border-radius: 14px;
+  padding: 13px 23px;
+}
+
+.hero {
+  margin: 0 130px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero .hero-primary {
+  width: 540px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+
+.hero .hero-primary h1 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: -1.11111px;
+  color: #151515;
+}
+
+.hero .hero-primary p {
+  width: 445px;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #686868;
+}
+
+.hero .hero-primary button {
+  background: #151515;
+  border: 0;
+  border-radius: 15px;
+  padding: 15px 31px;
+  width: 163px;
+  height: 56px;
+  color: #fafafa;
+  display: block;
+}
+
+.hero .hero-primary .clients {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero .hero-primary .clients img:nth-child(1) {
+  height: 20px;
+  left: 165.38px;
+}
+
+.hero .hero-primary .clients img:nth-child(2) {
+  width: 73px;
+  height: 35.9px;
+}
+
+.hero .hero-primary .clients img:nth-child(3) {
+  width: 89.31px;
+  height: 20px;
+}
+
+.hero .hero-primary .clients img:nth-child(1) {
+  width: 82.01px;
+  height: 24px;
+}
+
+.hero .hero-secondary {
+  display: block;
+  background-image: url("images/image-hero-desktop.png");
+  width: 340px;
+  height: 460px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: -13px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

@@ -171,10 +171,23 @@ body {
 
 .features-items {
   position: fixed;
+  left: 100px;
+  top: 60px;
+  width: 153px;
+  height: 160px;
+  background: #ffffff;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.149126);
+  border-radius: 10px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .features-container li {
   list-style: none;
+  display: flex;
+  gap: 14px;
 }
 
 .feature-items-remove {
@@ -188,6 +201,17 @@ body {
 
 .company-items {
   position: fixed;
+  left: 240px;
+  top: 60px;
+  width: 116px;
+  height: 128px;
+  background: #ffffff;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.149126);
+  border-radius: 10px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .company-container li {

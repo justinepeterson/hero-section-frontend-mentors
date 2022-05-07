@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html{
+  font-size: 62.5%;
+}
+
 body {
   margin: 0;
   background-color: #fafafa;
@@ -17,23 +21,23 @@ body {
 .header {
   display: flex;
   align-content: center;
-  gap: 62px;
-  padding: 22px 40px;
+  gap: 6.2rem;
+  padding: 2.2rem 4rem;
   color: hsl(0, 0%, 8%);
   font-family: "Epilogue";
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
 }
 
-.logo {
+.header__logo {
   display: flex;
   align-items: center;
 }
 .header .logo img {
-  width: 83.5px;
-  height: 26.58px;
+  width: 8.35rem;
+  height: 2.658rem;
 }
 
 .header a {
@@ -45,77 +49,77 @@ body {
   color: #151515;
 }
 
-.nav-primary {
-  width: 335px;
+.header__nav-left {
+  width: 33.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.nav-secondary {
-  width: 182px;
+.header__nav-right {
+  width: 18.2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-left: auto;
 }
 
-.nav-secondary button {
+.header__nav-right button {
   border: none;
   background-color: #fafafa;
 }
 
-.nav-secondary .register {
-  border: 1.5px solid #686868;
-  border-radius: 14px;
-  padding: 13px 23px;
+.header__nav-right .register {
+  border: 0.15rem solid #686868;
+  border-radius: 1.4rem;
+  padding: 1.3rem 2.3rem;
 }
 
-.nav-secondary .register:hover {
+.header__nav-right .register:hover {
   cursor: pointer;
-  border: 1.5px solid #151515;
+  border: 0.15rem solid #151515;
 }
 
 .hero {
-  margin: 0 130px;
+  margin: 0 1.3rem;
   display: flex;
   justify-content: space-around;
 }
 
 .hero .hero-primary {
-  width: 445px;
+  width: 44.5rem;
   height: auto;
   display: flex;
   flex-direction: column;
-  gap: 38px;
+  gap: 3.8rem;
 }
 
 .hero .hero-primary h1 {
   font-family: "Epilogue";
   font-style: normal;
-  font-size: 80px;
-  line-height: 80px;
-  letter-spacing: -1.11111px;
+  font-size: 8rem;
+  line-height: 8rem;
+  letter-spacing: -0.111111rem;
   color: #151515;
 }
 
 .hero .hero-primary p {
-  width: 445px;
+  width: 44.5rem;
   font-family: "Epilogue";
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
   color: #686868;
 }
 
 .hero .hero-primary button {
   background: #151515;
   border: 0;
-  border-radius: 15px;
-  padding: 15px 31px;
-  width: 163px;
-  height: 56px;
+  border-radius: 1.5rem;
+  padding: 1.5rem 3.1rem;
+  width: 16.3rem;
+  height: 5.6rem;
   color: #fafafa;
   display: block;
 }
@@ -127,39 +131,39 @@ body {
 }
 
 .hero .hero-primary .clients img:nth-child(1) {
-  height: 20px;
-  left: 165.38px;
+  height: 2rem;
+  left: 16.538rem;
 }
 
 .hero .hero-primary .clients img:nth-child(2) {
-  width: 73px;
-  height: 35.9px;
+  width: 7.3rem;
+  height: 3.59rem;
 }
 
 .hero .hero-primary .clients img:nth-child(3) {
-  width: 89.31px;
-  height: 20px;
+  width: 8.931rem;
+  height: 2rem;
 }
 
 .hero .hero-primary .clients img:nth-child(1) {
-  width: 82.01px;
-  height: 24px;
+  width: 8.201rem;
+  height: 2.4rem;
 }
 
 .hero .hero-secondary {
   display: block;
   background-image: url("images/image-hero-desktop.png");
-  width: 340px;
-  height: 460px;
+  width: 34rem;
+  height: 46rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 1.1rem;
   text-align: center;
-  margin-top: -13px;
+  margin-top: -1.3rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -171,14 +175,14 @@ body {
 
 .features-items {
   position: fixed;
-  left: 100px;
-  top: 60px;
-  width: 153px;
-  height: 160px;
+  left: 10rem;
+  top: 6rem;
+  width: 15.3rem;
+  height: 16rem;
   background: #ffffff;
-  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.149126);
-  border-radius: 10px;
-  padding: 24px;
+  box-shadow: 0rem 1rem 4rem rgba(0, 0, 0, 0.149126);
+  border-radius: 1rem;
+  padding: 2.4rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -187,7 +191,7 @@ body {
 .features-container li {
   list-style: none;
   display: flex;
-  gap: 14px;
+  gap: 1.4rem;
 }
 
 .feature-items-remove {
@@ -201,14 +205,14 @@ body {
 
 .company-items {
   position: fixed;
-  left: 240px;
-  top: 60px;
-  width: 116px;
-  height: 128px;
+  left: 24rem;
+  top: 6rem;
+  width: 11.6rem;
+  height: 12.8rem;
   background: #ffffff;
-  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.149126);
-  border-radius: 10px;
-  padding: 24px;
+  box-shadow: 0px 1rem 4rem rgba(0, 0, 0, 0.149126);
+  border-radius: 1rem;
+  padding: 2.4rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
